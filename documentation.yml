@@ -1,0 +1,31 @@
+---
+# project meta information
+ProjectName: OTRS Administration Manual
+Copyright: 2001-2022 OTRS AG, https://otrs.com/
+Author: OTRS AG
+Version: 9.0
+Release: 9.0
+
+# sphinx extension module names to be used
+Extensions:
+  - sphinx.ext.autosectionlabel
+
+# Whether the current version is considered a stable release.
+Stable: 0
+
+# The stable release link to show in a note on top (only if `Stable: 0`).
+#StableLink: https://doc.otrs.com/doc/manual/admin/10.0/{{Language}}/content/index.html
+
+# publish documentation to target repository
+Publish: 0
+
+# Publish translated documentation for following languages, even in case the coverage is below the configured threshold.
+ForceLanguages: []
+
+# PDF output directory path and filename
+PDFOutputPath: doc-admin/{{Version}}/{{Language}}/
+PDFFilename: otrs_admin_manual_{{Version}}_{{Language}}.pdf
+
+# EPub output directory path and filename
+EPUBOutputPath: doc-admin/{{Version}}/{{Language}}/
+EPUBFilename: otrs_admin_manual_{{Version}}_{{Language}}.epub
